@@ -1,5 +1,5 @@
 # Install Python dependencies
-pip install -r requirements.txt
+python3.12 -m pip install -r requirements.txt
 
 # Collect static files
-python3.12 manage.py collectstatic 
+python3.12 manage.py collectstatic
